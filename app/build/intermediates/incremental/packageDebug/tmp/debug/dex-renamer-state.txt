@@ -1,0 +1,4 @@
+#Wed Jul 06 03:38:25 IST 2022
+base.0=C\:\\Users\\jayes\\Desktop\\Flickr-Browser-App-Telling-Fibs-Source-code\\FlickrBrowser\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

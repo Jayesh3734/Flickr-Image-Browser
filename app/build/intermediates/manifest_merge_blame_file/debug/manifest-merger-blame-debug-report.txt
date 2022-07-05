@@ -1,0 +1,98 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="academy.learnprogramming.flickrbrowser"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:7:5-46:19
+14        android:allowBackup="true"
+14-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\jayes\.gradle\caches\transforms-2\files-2.1\d06ebd1a44413e948e98180eed7dfc6c\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme.NoActionBar" >
+22-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:13:9-52
+23        <activity
+23-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:14:9-22:20
+24            android:name="academy.learnprogramming.flickrbrowser.MainActivity"
+24-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:15:13-41
+25            android:label="@string/app_name" >
+25-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:16:13-45
+26            <intent-filter>
+26-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:17:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:18:17-68
+27-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:18:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:20:17-76
+29-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:23:9-37:20
+33            android:name="academy.learnprogramming.flickrbrowser.SearchActivity"
+33-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:24:13-43
+34            android:label="@string/title_activity_search"
+34-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:25:13-58
+35            android:parentActivityName="academy.learnprogramming.flickrbrowser.MainActivity" >
+35-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:26:13-55
+36            <meta-data
+36-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:27:13-29:86
+37                android:name="android.support.PARENT_ACTIVITY"
+37-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:28:17-63
+38                android:value="academy.learnprogramming.flickrbrowser.MainActivity" />
+38-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:29:17-84
+39
+40            <intent-filter>
+40-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:31:13-33:29
+41                <action android:name="android.intent.action.SEARCH" />
+41-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:32:17-70
+41-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:32:25-68
+42            </intent-filter>
+43
+44            <meta-data
+44-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:35:13-36:61
+45                android:name="android.app.searchable"
+45-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:35:24-61
+46                android:resource="@xml/searchable" />
+46-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:36:24-58
+47        </activity>
+48        <activity
+48-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:38:9-45:20
+49            android:name="academy.learnprogramming.flickrbrowser.PhotoDetailsActivity"
+49-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:39:13-49
+50            android:label="@string/title_activity_photo_details"
+50-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:40:13-65
+51            android:parentActivityName="academy.learnprogramming.flickrbrowser.MainActivity" >
+51-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:41:13-55
+52            <meta-data
+52-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:27:13-29:86
+53                android:name="android.support.PARENT_ACTIVITY"
+53-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:28:17-63
+54                android:value="academy.learnprogramming.flickrbrowser.MainActivity" />
+54-->C:\Users\jayes\Desktop\Flickr-Browser-App-Telling-Fibs-Source-code\FlickrBrowser\app\src\main\AndroidManifest.xml:29:17-84
+55        </activity>
+56    </application>
+57
+58</manifest>
